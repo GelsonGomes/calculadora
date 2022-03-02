@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo {
+    background: linear-gradient(45deg, black, rgb(14, 4, 41));
+    height: 100vh;
+    font-family: sans-serif, Arial, Helvetica;
+}
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+
+.display {
+    background-color: black;
+    color: #fff;
+    font-size: 1.3rem;
+    height: 2rem;
+    border-radius: 10%;
+    margin-bottom: 0.7rem;   
+    text-align: right;  /*muda o texto para de lado*/
+}
+.calculadora {
+    position: absolute;
+    background-color: rgba(40, 71, 212, 0.9); /* ultimo item é o grau de transparencia*/
+    color: black;
+    transform: translate(-50%,-50%);  /*centralizar calculcadora*/
+    top: 50%;
+    left: 50%;
+    border-radius: 10%;
+    padding: 1rem;
+}
+.btn {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: rgb(48, 45, 45);
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+ 
+}
+.btn:hover {
+    background-color: rgb(15, 15, 15);
+}
